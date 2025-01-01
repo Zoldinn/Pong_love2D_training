@@ -6,7 +6,7 @@ local function newPad()
 		pad.y = y or 10
 		pad.width = width or 30
 		pad.height = height or 120
-		pad.speed = speed or 200
+		pad.speed = speed or 300
 	end
 
 	function pad.update(dt, up, down)
